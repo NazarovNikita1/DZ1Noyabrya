@@ -28,7 +28,7 @@ class NERExtractor:
         pass
 
 # Создаем экземпляр NERStats
-document = "This one will be a document with named entities like IBM, Microsoft, and Facebook."
+document = "Те, кто водят хороводы — хороводоводы. Те, кто изучают творчество хороводоводов — хороводоводоведы. Те, кто любят читать хороводоводоведов — хороводоводоведофилы. Те, кто ненавидит хороводоводоведофилов — хороводоводоведофилофобы."
 ner_extractor = NERExtractor()
 ner_stats = NERStats(document, ner_extractor)
 
